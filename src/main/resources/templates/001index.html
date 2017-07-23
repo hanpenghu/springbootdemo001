@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <!--<script type="text/javascript" th:src="@{jquery-3.2.1.min.js}"></script>-->
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>你好！！我是001index.html页面！</h1>
+    <button value="按钮" style="width: 100px;height: 100px" id="button001"/>
+    <script type="text/javascript">
+        $("#button001").click(
+           function () {
+//               alert("是大佬附加了")
+               $.ajax({
+                   type: "GET",
+                   url: "demo",
+                   data:null,
+                   success: function (msg) {
+                       alert(msg.toString())
+                   }
+               })
+           }
+        )
+
+    </script>
+</body>
+</html>
