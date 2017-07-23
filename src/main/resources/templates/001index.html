@@ -5,6 +5,7 @@
     <meta charset="UTF-8"/>
     <title>Title</title>
     <!--<script type="text/javascript" th:src="@{jquery-3.2.1.min.js}"></script>-->
+    <!-- 这样写主要是因为application.properties中的配置-->
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -13,7 +14,6 @@
     <script type="text/javascript">
         $("#button001").click(
            function () {
-//               alert("是大佬附加了")
                $.ajax({
                    type: "GET",
                    url: "demo",
