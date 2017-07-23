@@ -1,4 +1,4 @@
-package com.hanhan.springboot001.springbootdemo001.component;
+package comm.hanhan.springboot001.springbootdemo001.component;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

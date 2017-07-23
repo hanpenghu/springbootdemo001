@@ -1,13 +1,12 @@
-package com.hanhan.springboot001.springbootdemo001.services;
+package comm.hanhan.springboot001.springbootdemo001.services;
 
 
-import com.hanhan.springboot001.springbootdemo001.dao.mapperJava01.DemoMapper;
-import com.hanhan.springboot001.springbootdemo001.dto.Demo;
-import com.hanhan.springboot001.springbootdemo001.dto.DemoExample;
+import comm.hanhan.springboot001.springbootdemo001.dao.mapperJava01.DemoMapper;
+import comm.hanhan.springboot001.springbootdemo001.dto.Demo;
+import comm.hanhan.springboot001.springbootdemo001.dto.DemoExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @Service

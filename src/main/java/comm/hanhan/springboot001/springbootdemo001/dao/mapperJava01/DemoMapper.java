@@ -1,8 +1,8 @@
-package com.hanhan.springboot001.springbootdemo001.dao.mapperJava01;
+package comm.hanhan.springboot001.springbootdemo001.dao.mapperJava01;
 
 import java.util.List;
-import com.hanhan.springboot001.springbootdemo001.dto.Demo;
-import com.hanhan.springboot001.springbootdemo001.dto.DemoExample;
+import comm.hanhan.springboot001.springbootdemo001.dto.Demo;
+import comm.hanhan.springboot001.springbootdemo001.dto.DemoExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface DemoMapper {

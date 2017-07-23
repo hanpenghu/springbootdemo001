@@ -1,4 +1,4 @@
-package com.hanhan.springboot001.springbootdemo001.component;
+package comm.hanhan.springboot001.springbootdemo001.component;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

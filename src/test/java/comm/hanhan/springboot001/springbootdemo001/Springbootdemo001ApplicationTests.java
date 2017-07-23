@@ -1,4 +1,4 @@
-package com.hanhan.springboot001.springbootdemo001;
+package comm.hanhan.springboot001.springbootdemo001;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

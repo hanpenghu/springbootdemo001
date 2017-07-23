@@ -1,4 +1,4 @@
-package com.hanhan.springboot001.springbootdemo001.dto;
+package comm.hanhan.springboot001.springbootdemo001.dto;
 
 public class Demo {
     private Integer id;
