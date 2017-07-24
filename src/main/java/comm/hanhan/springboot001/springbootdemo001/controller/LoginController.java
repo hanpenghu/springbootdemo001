@@ -33,13 +33,10 @@ public class LoginController {
                 "GET, POST, PUT, DELETE, OPTIONS");
         response.addHeader("Access-Control-Allow-Headers",
                 "origin, content-type, accept, x-requested-with, sid, mycustom, smuser");*/
-      /*  HttpSession session = request.getSession();
+        HttpSession session = request.getSession();
         session.setAttribute("username","韩寒");
         session.setMaxInactiveInterval(10*60);//设置session失效时间为10分钟
-        System.out.println("session注册完成！！");*/
-        List<Demo> demo = demoService.getDemo();
-        String s = JSON.toJSONString(demo);
-        System.out.println(s);
-        return s;
+        System.out.println("session注册完成！！");
+        return "session注册完成！！";
     }
 }

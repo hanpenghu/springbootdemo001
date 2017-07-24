@@ -10,13 +10,13 @@ public class InterceptorLogin implements HandlerInterceptor{
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
-       /* Object username = request.getSession().getAttribute("username");
+        Object username = request.getSession().getAttribute("username");
         if(username!=null){
             return true;
         }
         System.out.println("被  之前  拦截器  拦截了！！！！");
-        return false;*/
-       return true;
+        return false;
+
     }
 
     @Override
